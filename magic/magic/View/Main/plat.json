@@ -1,0 +1,29 @@
+  [
+  {
+  "clsName" : "PlatProductController",
+  "title" : "理财",
+  "visitorInfo" : {
+  "imageName" : "",
+  "message" : "关注一些人，回这里看看有什么惊喜"
+  },
+  "imageName" : "ico_market"
+  },
+  {
+  "clsName" : "ClientServiceController",
+  "title" : "资讯",
+  "visitorInfo" : {
+  "imageName" : "visitordiscover_image_message",
+  "message" : "登录后，最新、最热微博尽在掌握，不再会与实事潮流擦肩而过"
+  },
+  "imageName" : "ico_com"
+  },
+  {
+  "clsName" : "PlatAccountController",
+  "title" : "我的直投理财",
+  "visitorInfo" : {
+  "imageName" : "visitordiscover_image_profile",
+  "message" : "登录后，你的微博、相册、个人资料会显示在这里，展示给别人"
+  },
+  "imageName" : "ico_home"
+  }
+  ]

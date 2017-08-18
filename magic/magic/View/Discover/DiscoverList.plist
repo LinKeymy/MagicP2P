@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>ff_IconShowAlbum</string>
+			<key>title</key>
+			<string>财富圈</string>
+			<key>uri</key>
+			<string>https://m2.touzhijia.com/libra/assets</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>MoreGame</string>
+			<key>title</key>
+			<string>天秤智投</string>
+            <key>uri</key>
+            <string>https://m2.touzhijia.com/libra/assets</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>MoreGame</string>
+			<key>title</key>
+			<string>积分商城</string>
+            <key>uri</key>
+            <string>https://m2.touzhijia.com/libra/assets</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>ff_IconShake</string>
+			<key>title</key>
+			<string>每日奖励</string>
+            <key>uri</key>
+            <string>https://m2.touzhijia.com/account/points/dailyrewards</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>ff_IconLocationService</string>
+			<key>title</key>
+			<string>社区</string>
+            <key>uri</key>
+            <string>https://ask.touzhijia.com/m/</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>ff_IconLocationService</string>
+			<key>title</key>
+			<string>之家俱乐部</string>
+            <key>uri</key>
+            <string>https://m2.touzhijia.com/club</string>
+		</dict>
+	</array>
+</array>
+</plist>

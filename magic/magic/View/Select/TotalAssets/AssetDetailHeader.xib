@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12118"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="35M-Vc-apO" customClass="AssetDetailHeader" customModule="magic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="637"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Nj-pc-4Gv">
+                    <rect key="frame" x="30" y="30" width="315" height="315"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fph-Vk-V8p" customClass="PieChartView" customModule="Charts">
+                            <rect key="frame" x="10" y="10" width="295" height="295"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="5Nj-pc-4Gv" secondAttribute="height" multiplier="15:15" id="Oee-tP-JEU"/>
+                        <constraint firstItem="fph-Vk-V8p" firstAttribute="leading" secondItem="5Nj-pc-4Gv" secondAttribute="leading" constant="10" id="VM6-ig-ZfH"/>
+                        <constraint firstItem="fph-Vk-V8p" firstAttribute="top" secondItem="5Nj-pc-4Gv" secondAttribute="top" constant="10" id="ZvH-iT-Flk"/>
+                        <constraint firstAttribute="trailing" secondItem="fph-Vk-V8p" secondAttribute="trailing" constant="10" id="dH4-Zj-8uG"/>
+                        <constraint firstAttribute="bottom" secondItem="fph-Vk-V8p" secondAttribute="bottom" constant="10" id="rtg-ly-ckU"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VZd-AW-PmA">
+                    <rect key="frame" x="6" y="353" width="363" height="100.5"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VZd-AW-PmA" secondAttribute="height" multiplier="322:89" id="jDD-B6-dPe"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XJu-AA-zAB">
+                    <rect key="frame" x="15" y="463.5" width="345" height="153.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VZd-AW-PmA" firstAttribute="top" secondItem="5Nj-pc-4Gv" secondAttribute="bottom" constant="8" id="3AK-7f-YVU"/>
+                <constraint firstItem="XJu-AA-zAB" firstAttribute="leading" secondItem="35M-Vc-apO" secondAttribute="leading" constant="15" id="4JA-l6-0aG"/>
+                <constraint firstItem="XJu-AA-zAB" firstAttribute="top" secondItem="VZd-AW-PmA" secondAttribute="bottom" constant="10" id="BRN-BY-ygi"/>
+                <constraint firstItem="5Nj-pc-4Gv" firstAttribute="top" secondItem="35M-Vc-apO" secondAttribute="top" constant="30" id="KbO-Hc-IAp"/>
+                <constraint firstAttribute="trailing" secondItem="5Nj-pc-4Gv" secondAttribute="trailing" constant="30" id="NAX-t6-8im"/>
+                <constraint firstItem="5Nj-pc-4Gv" firstAttribute="leading" secondItem="35M-Vc-apO" secondAttribute="leading" constant="30" id="P3L-iF-qJU"/>
+                <constraint firstItem="VZd-AW-PmA" firstAttribute="leading" secondItem="35M-Vc-apO" secondAttribute="leading" constant="6" id="QyZ-8y-lmt"/>
+                <constraint firstAttribute="trailing" secondItem="VZd-AW-PmA" secondAttribute="trailing" constant="6" id="TV5-zW-Xg7"/>
+                <constraint firstAttribute="bottom" secondItem="XJu-AA-zAB" secondAttribute="bottom" constant="20" id="b2r-CX-eGp"/>
+                <constraint firstAttribute="trailing" secondItem="XJu-AA-zAB" secondAttribute="trailing" constant="15" id="dh9-CQ-YIX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chartSuperView" destination="5Nj-pc-4Gv" id="qjw-LU-E6g"/>
+                <outlet property="chartView" destination="fph-Vk-V8p" id="h4d-dx-iYb"/>
+            </connections>
+            <point key="canvasLocation" x="-78.5" y="98.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="BoldTitleHeader" customModule="magic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="asq-Dp-cWm">
+                    <rect key="frame" x="15" y="0.0" width="360" height="0.5"/>
+                    <color key="backgroundColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="zQp-ks-2dH"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="猜你喜欢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ff6-8p-Gpc">
+                    <rect key="frame" x="15" y="27.5" width="82" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AlJ-7K-Npd">
+                    <rect key="frame" x="298" y="24.5" width="62" height="30"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="显示全部"/>
+                    <connections>
+                        <action selector="rightButtonTouchUp:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="m5I-Ya-qNo"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZP-Ia-67u" userLabel="desc">
+                    <rect key="frame" x="105" y="39.5" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ff6-8p-Gpc" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="1kL-HF-qHJ"/>
+                <constraint firstItem="BZP-Ia-67u" firstAttribute="centerY" secondItem="ff6-8p-Gpc" secondAttribute="centerY" id="5BW-oE-aFG"/>
+                <constraint firstAttribute="trailing" secondItem="asq-Dp-cWm" secondAttribute="trailing" id="63l-Qj-2PO"/>
+                <constraint firstItem="asq-Dp-cWm" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="Jrp-e5-tE5"/>
+                <constraint firstItem="AlJ-7K-Npd" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="LZ7-sB-oyC"/>
+                <constraint firstItem="asq-Dp-cWm" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="15" id="PgR-aN-Lt2"/>
+                <constraint firstAttribute="trailing" secondItem="AlJ-7K-Npd" secondAttribute="trailing" constant="15" id="aWG-a7-TTf"/>
+                <constraint firstItem="ff6-8p-Gpc" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="15" id="bMf-T7-TeY"/>
+                <constraint firstItem="BZP-Ia-67u" firstAttribute="leading" secondItem="ff6-8p-Gpc" secondAttribute="trailing" constant="8" id="zg5-qa-Z2B"/>
+            </constraints>
+            <connections>
+                <outlet property="descLabel" destination="BZP-Ia-67u" id="NOH-Vp-6Q0"/>
+                <outlet property="leftLabel" destination="ff6-8p-Gpc" id="PZ1-it-Luu"/>
+                <outlet property="rightButton" destination="AlJ-7K-Npd" id="ouq-Kf-Xml"/>
+                <outlet property="topSepView" destination="asq-Dp-cWm" id="tqd-gw-O9G"/>
+            </connections>
+            <point key="canvasLocation" x="-253" y="-77"/>
+        </collectionReusableView>
+    </objects>
+</document>

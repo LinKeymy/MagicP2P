@@ -1,0 +1,59 @@
+{
+    "datalist": [{
+                 "id": 19,
+                 "contenType": "imageTheme",
+                 "title": "",
+                 "isShowHeader": 0,
+                 "rightEntry": "查看全部",
+                 "list": [
+                          {
+                          "title": "珠宝贷发福利啦,快去抢一波",
+                          "detailText": "网贷之家提供",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "收到消息,一路同心周年庆",
+                          "detailText": "平台有背景",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "惠投无忧在搞事,速速围观！",
+                          "detailText": "资金银行存管",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 102,
+                 "contenType": "column",
+                 "title": "会员专享",
+                 "isShowHeader": 1,
+                 "rightEntry": "更多》",
+                 "itemw": 137,
+                 "itemh": 200,
+                 "list": [
+                          {
+                          "title": "50元话费-中国移动",
+                          "detailText": "5000积分",
+                          "icon": "50元话费充值卡",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "100元京东卡",
+                          "detailText": "10000积分",
+                          "icon": "100元京东卡",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "爱奇艺黄金会员",
+                          "detailText": "5800积分",
+                          "icon": "爱奇艺会员",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 }
+                 ]
+}

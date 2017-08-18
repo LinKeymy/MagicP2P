@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FocalcontentCell" customModule="magic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="98"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="深圳的你再忙也要加一下这个投资微信！不然后悔！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ce4-j7-zNX">
+                        <rect key="frame" x="15" y="15" width="222" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="惠投无忧 AA级平台" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSa-9K-f3e">
+                        <rect key="frame" x="15" y="66" width="122.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ar-U6-j3V">
+                        <rect key="frame" x="15" y="97.5" width="357" height="0.5"/>
+                        <color key="backgroundColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="1sL-iF-2mW"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="applelogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZpJ-Ve-vGW">
+                        <rect key="frame" x="262" y="15" width="95" height="68"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ZpJ-Ve-vGW" secondAttribute="height" multiplier="105:75" id="rN3-w2-GHa"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0Ar-U6-j3V" secondAttribute="trailing" id="0zj-Sc-n9s"/>
+                <constraint firstItem="ZpJ-Ve-vGW" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="3ge-lQ-51j"/>
+                <constraint firstItem="MSa-9K-f3e" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="7YH-pA-f6j"/>
+                <constraint firstAttribute="trailing" secondItem="ZpJ-Ve-vGW" secondAttribute="trailing" constant="15" id="M1b-dk-GxP"/>
+                <constraint firstItem="ce4-j7-zNX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="O9X-aL-qUH"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZpJ-Ve-vGW" secondAttribute="bottom" constant="15" id="Z1W-yV-g2n"/>
+                <constraint firstItem="ZpJ-Ve-vGW" firstAttribute="leading" secondItem="ce4-j7-zNX" secondAttribute="trailing" constant="25" id="bRL-yf-8vU"/>
+                <constraint firstItem="0Ar-U6-j3V" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="iPW-ho-gBk"/>
+                <constraint firstAttribute="bottom" secondItem="MSa-9K-f3e" secondAttribute="bottom" constant="15" id="jux-EE-heL"/>
+                <constraint firstItem="ZpJ-Ve-vGW" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="rvg-Dx-Flf"/>
+                <constraint firstItem="ce4-j7-zNX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="vEq-jA-yvh"/>
+                <constraint firstAttribute="bottom" secondItem="0Ar-U6-j3V" secondAttribute="bottom" id="xiG-xH-1s1"/>
+            </constraints>
+            <size key="customSize" width="372" height="98"/>
+            <connections>
+                <outlet property="descLabel" destination="MSa-9K-f3e" id="VRN-0L-kbH"/>
+                <outlet property="iconView" destination="ZpJ-Ve-vGW" id="RND-ml-uZ1"/>
+                <outlet property="titleLabel" destination="ce4-j7-zNX" id="P4C-OF-p4c"/>
+            </connections>
+            <point key="canvasLocation" x="-371" y="-460"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="applelogo" width="329" height="329"/>
+    </resources>
+</document>

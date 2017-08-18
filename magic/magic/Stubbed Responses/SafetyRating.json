@@ -1,0 +1,366 @@
+{
+    "datalist": [
+                 {
+                 "id": 1,
+                 "contenType": "platBaseInfo",
+                 "title": "AAA",
+                 "desc": "xxx",
+                 "isShowHeader": 1,
+                 "rightEntry": "AAA",
+                 "desc": "安全性最高",
+                 "list":
+                 [
+                  {
+                  "platEnName": "wyjr",
+                  "platCnName": "万盈金融",
+                  "maxRate": 12,
+                  "minRate": 8,
+                  "startDeadline": 7,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "AA",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/wyjr.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "国资系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 66.73,
+                  "avgRate": 12.23,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/wyjr"
+                  },
+                  {
+                  "platEnName": "huiyingdai",
+                  "platCnName": "汇盈金服",
+                  "maxRate": 14,
+                  "minRate": 8,
+                  "startDeadline": 1,
+                  "startDeadlineUnit": "月",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "BBB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/huiyingdai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "上市系"
+                           ],
+                  "tradeVolume": 795,
+                  "avgRate": 9.67,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/huiyingdai"
+                  }]
+                 
+                 },
+                 {
+                 "id": 2,
+                 "contenType": "platBaseInfo",
+                 "title": "AA",
+                 "isShowHeader": 1,
+                 "desc": "xxx",
+                 "rightEntry": "查看全部",
+                 "desc": "安全性最高",
+                 "list":
+                 [{
+                  "platEnName": "renrendai",
+                  "platCnName": "人人贷",
+                  "maxRate": 9.6,
+                  "minRate": 4,
+                  "startDeadline": 31,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 730,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "AAA",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/renrendai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "风投系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 123.95,
+                  "avgRate": 10.17,
+                  "showQuickInvestTag": false,
+                  "uri": "http://m2.touzhijia.com/platform/detail/renrendai"
+                  },
+                  {
+                  "platEnName": "huitouwang",
+                  "platCnName": "汇投网",
+                  "maxRate": 13.5,
+                  "minRate": 5.2,
+                  "startDeadline": 3,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 180,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "BBB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/huitouwang.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "国资系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 30,
+                  "avgRate": 9.35,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/huitouwang"
+                  },
+                  {
+                  "platEnName": "zhubaodai",
+                  "platCnName": "珠宝贷",
+                  "maxRate": 12,
+                  "minRate": 8,
+                  "startDeadline": 30,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "A",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/zhubaodai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "上市系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 11.4,
+                  "avgRate": 9.43,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/zhubaodai"
+                  }
+                  ]
+                 },
+                 {
+                 "id": 3,
+                 "contenType": "platBaseInfo",
+                 "title": "A",
+                 "desc": "xxx",
+                 "isShowHeader": 1,
+                 "rightEntry": "查看全部",
+                 "list":
+                 [{
+                  "platEnName": "renrendai",
+                  "platCnName": "人人贷",
+                  "maxRate": 9.6,
+                  "minRate": 4,
+                  "startDeadline": 31,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 730,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "AAA",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/renrendai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "风投系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 123.95,
+                  "avgRate": 10.17,
+                  "showQuickInvestTag": false,
+                  "uri": "http://m2.touzhijia.com/platform/detail/renrendai"
+                  },
+                  {
+                  "platEnName": "huitouwang",
+                  "platCnName": "汇投网",
+                  "maxRate": 13.5,
+                  "minRate": 5.2,
+                  "startDeadline": 3,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 180,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "BBB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/huitouwang.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "国资系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 30,
+                  "avgRate": 9.35,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/huitouwang"
+                  },
+                  {
+                  "platEnName": "zhubaodai",
+                  "platCnName": "珠宝贷",
+                  "maxRate": 12,
+                  "minRate": 8,
+                  "startDeadline": 30,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "A",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/zhubaodai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "上市系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 11.4,
+                  "avgRate": 9.43,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/zhubaodai"
+                  }
+                  ]
+                 },
+                 {
+                 "id": 4,
+                 "contenType": "platBaseInfo",
+                 "title": "BBB",
+                 "isShowHeader": 1,
+                 "desc": "xxx",
+                 "rightEntry": "查看全部",
+                 "desc": "安全性最高",
+                 "list":
+                 [{
+                  "platEnName": "renrendai",
+                  "platCnName": "人人贷",
+                  "maxRate": 9.6,
+                  "minRate": 4,
+                  "startDeadline": 31,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 730,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "AAA",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/renrendai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "风投系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 123.95,
+                  "avgRate": 10.17,
+                  "showQuickInvestTag": false,
+                  "uri": "http://m2.touzhijia.com/platform/detail/renrendai"
+                  },
+                  {
+                  "platEnName": "huitouwang",
+                  "platCnName": "汇投网",
+                  "maxRate": 13.5,
+                  "minRate": 5.2,
+                  "startDeadline": 3,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 180,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "BBB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/huitouwang.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "国资系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 30,
+                  "avgRate": 9.35,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/huitouwang"
+                  },
+                  {
+                  "platEnName": "zhubaodai",
+                  "platCnName": "珠宝贷",
+                  "maxRate": 12,
+                  "minRate": 8,
+                  "startDeadline": 30,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "A",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/zhubaodai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "上市系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 11.4,
+                  "avgRate": 9.43,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/zhubaodai"
+                  }
+                  ]
+                 },
+                 {
+                 "id": 5,
+                 "contenType": "platBaseInfo",
+                 "title": "BB",
+                 "isShowHeader": 1,
+                 "desc": "xxx",
+                 "rightEntry": "查看全部",
+                 "desc": "安全性最高",
+                 "list":
+                 [{
+                  "platEnName": "renrendai",
+                  "platCnName": "人人贷",
+                  "maxRate": 9.6,
+                  "minRate": 4,
+                  "startDeadline": 31,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 730,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "AAA",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/renrendai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "风投系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 123.95,
+                  "avgRate": 10.17,
+                  "showQuickInvestTag": false,
+                  "uri": "http://m2.touzhijia.com/platform/detail/renrendai"
+                  },
+                  {
+                  "platEnName": "huitouwang",
+                  "platCnName": "汇投网",
+                  "maxRate": 13.5,
+                  "minRate": 5.2,
+                  "startDeadline": 3,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 180,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "BBB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/huitouwang.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "国资系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 30,
+                  "avgRate": 9.35,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/huitouwang"
+                  },
+                  {
+                  "platEnName": "zhubaodai",
+                  "platCnName": "珠宝贷",
+                  "maxRate": 12,
+                  "minRate": 8,
+                  "startDeadline": 30,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "A",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/zhubaodai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "上市系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 11.4,
+                  "avgRate": 9.43,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/zhubaodai"
+                  }
+                  ]
+                 }
+                 ]
+}

@@ -1,0 +1,52 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+def common_pods
+    pod 'FSCalendar', '~>2.7.7'
+    pod 'Timepiece', '~>1.2.0'
+    pod 'Alamofire', '~>4.4.0'
+    pod 'YYModel', '~>1.0.4'
+    pod 'IGListKit', '~>2.1.0'
+    pod 'SnapKit', '~>3.2.0'
+    pod 'Kingfisher', '~>3.6.1'
+    pod 'SVProgressHUD','~>2.1.2'
+    pod 'ChameleonFramework/Swift', '~>2.1.0'
+    pod 'SwiftyUserDefaults','~>3.0.0'
+end
+
+
+
+def spec_pods
+    pod 'Moya', '~>8.0.3'
+    pod 'Moya/RxSwift'
+    pod 'RxSwift', '~>3.4.0'
+    pod 'RxCocoa', '~>3.4.0'
+    pod 'SwiftyJSON', '~>3.1.4'
+    pod 'ReachabilitySwift', '~>3'
+    pod 'ResponseDetective', '~>1.1'
+    pod 'ISO8601DateFormatter', '~>0.8'
+end
+
+
+
+def testing_pods
+    pod 'Quick', '~>1.1.0'
+    pod 'Nimble'
+end
+
+target 'magic' do
+    platform :ios, '9.0'
+    inhibit_all_warnings!
+    common_pods
+    spec_pods
+    
+    target 'TZJSepcTest' do
+        inherit! :search_paths
+        testing_pods
+    end
+    
+end
+
+
+

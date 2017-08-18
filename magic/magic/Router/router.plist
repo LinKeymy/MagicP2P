@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>/recommended/messages</key>
+	<string>MessageController</string>
+	<key>/recommended/messages/detail</key>
+	<string>MessageDetailController</string>
+	<key>/platTable</key>
+	<string>PlatTableController</string>
+	<key>/platform/addSelect</key>
+	<string>AddSelectViewController</string>
+	<key>/my/coupon</key>
+	<string>CouponController</string>
+	<key>/platform/safetyRating</key>
+	<string>PlatSafetyRatingController</string>
+	<key>/platform/background</key>
+	<string>PlatBackgroundController</string>
+	<key>/assets/renew</key>
+	<string>RenewListController</string>
+	<key>/assets/renew/settings</key>
+	<string>RenewSettingController</string>
+	<key>/platform/depository</key>
+	<string>PlatHaveDepositoryController</string>
+	<key>/bid/purchase</key>
+	<string>PurchaseController</string>
+</dict>
+</plist>

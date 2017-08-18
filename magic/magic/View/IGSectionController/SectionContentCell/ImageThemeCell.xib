@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageThemeCell" customModule="magic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="290" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dribbble" translatesAutoresizingMaskIntoConstraints="NO" id="dIL-2e-aGY">
+                        <rect key="frame" x="0.0" y="0.0" width="290" height="150"/>
+                        <color key="backgroundColor" red="0.72156862749999995" green="0.72156862749999995" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="看得开亏空公款公开课过客过客过" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlX-LW-GTH">
+                        <rect key="frame" x="20" y="66.5" width="250" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dIL-2e-aGY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0J4-ST-Eut"/>
+                <constraint firstItem="zlX-LW-GTH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="6DK-Ub-CFP"/>
+                <constraint firstAttribute="trailing" secondItem="dIL-2e-aGY" secondAttribute="trailing" id="GLt-N9-7iW"/>
+                <constraint firstAttribute="bottom" secondItem="dIL-2e-aGY" secondAttribute="bottom" id="Gk3-Fa-Rr6"/>
+                <constraint firstAttribute="trailing" secondItem="zlX-LW-GTH" secondAttribute="trailing" constant="20" id="PnG-eR-Wyl"/>
+                <constraint firstItem="zlX-LW-GTH" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="VFX-4Z-IKp"/>
+                <constraint firstItem="dIL-2e-aGY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sRV-t8-TEA"/>
+            </constraints>
+            <size key="customSize" width="273" height="113"/>
+            <connections>
+                <outlet property="bgImageView" destination="dIL-2e-aGY" id="sy0-jW-VsK"/>
+                <outlet property="centerLabel" destination="zlX-LW-GTH" id="j65-rU-dNx"/>
+            </connections>
+            <point key="canvasLocation" x="-3" y="-28"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="dribbble" width="157" height="76"/>
+    </resources>
+</document>

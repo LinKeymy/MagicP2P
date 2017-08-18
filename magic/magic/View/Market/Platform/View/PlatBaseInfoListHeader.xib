@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vp0-Vw-nFJ" customClass="PlatBaseInfoListHeader" customModule="magic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdx-fx-6EI" userLabel="平台背景的筛选">
+                    <rect key="frame" x="15" y="5" width="31" height="30"/>
+                    <state key="normal" title="全部"/>
+                    <connections>
+                        <action selector="buttonDidTouchUpInside:" destination="vp0-Vw-nFJ" eventType="touchUpInside" id="vvp-TY-b8A"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogT-i3-m3K" userLabel="安全评级排序">
+                    <rect key="frame" x="181" y="5" width="62" height="30"/>
+                    <state key="normal" title="安全评级"/>
+                    <connections>
+                        <action selector="buttonDidTouchUpInside:" destination="vp0-Vw-nFJ" eventType="touchUpInside" id="4aB-yK-N1Q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7V-KL-IWv" userLabel="平均利率降序">
+                    <rect key="frame" x="347" y="5" width="62" height="30"/>
+                    <state key="normal" title="平均利率"/>
+                    <connections>
+                        <action selector="buttonDidTouchUpInside:" destination="vp0-Vw-nFJ" eventType="touchUpInside" id="9Tn-xr-VTu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="C7V-KL-IWv" firstAttribute="centerY" secondItem="ogT-i3-m3K" secondAttribute="centerY" id="4mq-Cp-WED"/>
+                <constraint firstItem="ogT-i3-m3K" firstAttribute="centerX" secondItem="vp0-Vw-nFJ" secondAttribute="centerX" id="7o0-RD-0Bg"/>
+                <constraint firstItem="ogT-i3-m3K" firstAttribute="centerY" secondItem="vp0-Vw-nFJ" secondAttribute="centerY" id="LlP-4E-scr"/>
+                <constraint firstItem="cdx-fx-6EI" firstAttribute="leading" secondItem="vp0-Vw-nFJ" secondAttribute="leading" constant="15" id="VS0-7k-Zn7"/>
+                <constraint firstAttribute="trailing" secondItem="C7V-KL-IWv" secondAttribute="trailing" constant="15" id="cep-a1-CO3"/>
+                <constraint firstItem="cdx-fx-6EI" firstAttribute="centerY" secondItem="vp0-Vw-nFJ" secondAttribute="centerY" id="n27-9n-UOu"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="centerButton" destination="ogT-i3-m3K" id="xfU-Tx-6cy"/>
+                <outlet property="leftButton" destination="cdx-fx-6EI" id="c5u-4D-JlC"/>
+                <outlet property="rightButton" destination="C7V-KL-IWv" id="VQ0-Nu-HNd"/>
+            </connections>
+            <point key="canvasLocation" x="-146" y="-772"/>
+        </view>
+    </objects>
+</document>

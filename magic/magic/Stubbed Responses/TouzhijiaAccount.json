@@ -1,0 +1,86 @@
+{"datalist":[{
+             "id": 1,
+             "contenType": "grid",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "查看全部",
+             "list": [
+                      {
+                      "title": "",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://platform/safetyRating"
+                      }
+                      ]
+             },
+             {
+             "id": 2,
+             "contenType": "grid",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "查看全部",
+             "list": [
+                      {
+                      "title": "T计划",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "https://m.touzhijia.com/account/wallet/tplan"
+                      }
+                      ]
+             },
+             {
+             "id": 3,
+             "contenType": "grid",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "查看全部",
+             "list": [
+                      {
+                      "title": "资金流水",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://my/coupon"
+                      },
+                      {
+                      "title": "直投资产",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://platform/safetyRating"
+                      },
+                      {
+                      "title": "余额",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://my/coupon"
+                      }
+                      ]
+             },
+             {
+             "id": 4,
+             "contenType": "grid",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "查看全部",
+             "list": [
+                      {
+                      "title": "自动购买",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://platform/safetyRating"
+                      },
+                      {
+                      "title": "预约续购",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://assets/renew"
+                      },
+                      {
+                      "title": "我要转让",
+                      "detailText": "",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://my/coupon"
+                      }
+                      ]
+             }
+             ]
+}

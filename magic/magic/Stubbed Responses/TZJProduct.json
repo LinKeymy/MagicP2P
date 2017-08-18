@@ -1,0 +1,211 @@
+{"datalist":[
+             {"id":1117,
+             "contenType": "platAssets",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "",
+             "list":[
+                     {
+                     "platEnName": "touzhijia",
+                     "platCnName": "直投",
+                     "awaitAmount": 0,
+                     "totalAmount": 564646,
+                     "balanceAmount": 6524.87,
+                     "uri": 100000,
+                     }
+                     ]
+             },
+             {"id":17,
+             "contenType": "bids",
+             "title": "新手专享",
+             "isShowHeader": 1,
+             "rightEntry": "",
+             "list":[
+                     {
+                     "investId": "27205",
+                     "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+                     "investName": "【新手标】",
+                     "period": 3,
+                     "periodUnit": "个月",
+                     "platEnName": "stjr",
+                     "platCnName": "石投金融",
+                     "amount": 100000,
+                     "remainAmount": 68980,
+                     "totalRate": 13,
+                     }
+                     ]
+             },
+             {"id":1,
+             "contenType": "bids",
+             "title": "之家精选",
+             "isShowHeader": 1,
+             "rightEntry": "",
+             "list":[{
+                     "investId": "6360",
+                     "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+                     "investName": "车e贷（抵押1706361）",
+                     "platEnName": "erongsuo",
+                     "period": 30,
+                     "periodUnit": "天",
+                     "platCnName": "e融所",
+                     "amount": 77800,
+                     "remainAmount": 23657,
+                     "totalRate": 8,
+                     },
+                     {
+                     "investId": "HBD17060466",
+                     "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+                     "investName": "HBD17060466",
+                     "platEnName": "huiyingdai",
+                     "period": 3,
+                     "periodUnit": "个月",
+                     "platCnName": "汇盈金服",
+                     "amount": 500000,
+                     "remainAmount": 100500,
+                     "totalRate": 8.5,
+                     },
+                     {
+                     "investId": "27205",
+                     "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+                     "investName": "【新手标】",
+                     "period": 3,
+                     "periodUnit": "个月",
+                     "platEnName": "stjr",
+                     "platCnName": "石投金融",
+                     "amount": 100000,
+                     "remainAmount": 68980,
+                     "totalRate": 13,
+                     }
+                     ]
+             },
+             {
+             "id": 19,
+             "contenType": "imageTheme",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "",
+             "list": [
+                      {
+                      "title": "珠宝贷发福利啦,快去抢一波",
+                      "detailText": "网贷之家提供",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://my/coupon"
+                      },
+                      {
+                      "title": "收到消息,一路同心周年庆",
+                      "detailText": "平台有背景",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://my/coupon"
+                      },
+                      {
+                      "title": "惠投无忧在搞事,速速围观！",
+                      "detailText": "资金银行存管",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://my/coupon"
+                      }
+                      ]
+             },
+             {"id":2,
+             "contenType": "bids",
+             "title": "转让",
+             "isShowHeader": 1,
+             "rightEntry": "",
+             "list":[{
+                     "investId": "6360",
+                     "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+                     "investName": "车e贷（抵押1706361）",
+                     "platEnName": "erongsuo",
+                     "period": 3,
+                     "periodUnit": "个月",
+                     "platCnName": "e融所",
+                     "amount": 77800,
+                     "remainAmount": 23657,
+                     "totalRate": 8,
+                     },
+                     {
+                     "investId": "HBD17060466",
+                     "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+                     "investName": "HBD17060466",
+                     "platEnName": "huiyingdai",
+                     "period": 15,
+                     "periodUnit": "天",
+                     "platCnName": "汇盈金服",
+                     "amount": 500000,
+                     "remainAmount": 100500,
+                     "totalRate": 8.5,
+                     },
+                     {
+                     "investId": "27205",
+                     "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+                     "investName": "【新手标】",
+                     "platEnName": "stjr",
+                     "platCnName": "石投金融",
+                     "period": 3,
+                     "periodUnit": "个月",
+                     "amount": 100000,
+                     "remainAmount": 68980,
+                     "totalRate": 13,
+                     },
+                     {
+                     "investId": "27205",
+                     "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+                     "investName": "【新手标】",
+                     "platEnName": "stjr",
+                     "period": 3,
+                     "periodUnit": "个月",
+                     "platCnName": "石投金融",
+                     "amount": 100000,
+                     "remainAmount": 68980,
+                     "totalRate": 13,
+                     },
+                     {
+                     "investId": "27205",
+                     "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+                     "investName": "【新手标】",
+                     "platEnName": "stjr",
+                     "period": 3,
+                     "periodUnit": "个月",
+                     "platCnName": "石投金融",
+                     "amount": 100000,
+                     "remainAmount": 68980,
+                     "totalRate": 13,
+                     }
+                     ]
+             },
+             {
+             "id": 0,
+             "contenType": "column",
+             "title": "可以搞些标的相关的内容",
+             "isShowHeader": 1,
+             "rightEntry": "",
+             "itemw": 150,
+             "itemh": 150,
+             "list": [
+                      {
+                      "title": "标的债券分类",
+                      "detailText": "搞个描述",
+                      "icon": "applelogo",
+                      "uri": "touzhijia://my/coupon"
+                      },
+                      {
+                      "title": "标的主要元素",
+                      "detailText": "搞个描述",
+                      "icon": "applelogo",
+                      "uri": "touzhijia://my/coupon"
+                      },
+                      {
+                      "title": "如何选标",
+                      "detailText": "搞个描述",
+                      "icon": "applelogo",
+                      "uri": "touzhijia://my/coupon"
+                      },
+                      {
+                      "title": "如何选标",
+                      "detailText": "搞个描述",
+                      "icon": "applelogo",
+                      "uri": "touzhijia://my/coupon"
+                      }
+                      ]
+             }
+             ]
+}

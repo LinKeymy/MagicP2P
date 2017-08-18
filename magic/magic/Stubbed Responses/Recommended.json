@@ -1,0 +1,308 @@
+{
+    "datalist": [
+                 {
+                 "id": 0,
+                 "contenType": "staticBanner",
+                 "title": "",
+                 "isShowHeader": 0,
+                 "rightEntry": "查看全部",
+                 "list": [
+                          {
+                          "title": "网贷的前世今生",
+                          "detailText": "投之家",
+                          "icon": "https://static.touzhijia.com/images/m/5e53f71d8a88bd74bc8695ebf499fda2-20170228.jpg",
+                          "uri": "touzhijia://platform/safetyRating"
+                          },
+                          {
+                          "title": "投资是一种生活",
+                          "detailText": "人人贷",
+                          "icon": "https://static.touzhijia.com/images/m/fe16ff090cfe1c606a3ce5eff72b933e-20161012.jpg",
+                          "uri": "touzhijia://platform/background"
+                          },
+                          {
+                          "title": "关于收益与风险",
+                          "detailText": "网贷之家",
+                          "icon": "https://static.touzhijia.com/m/banners/appdownload-1080x460.png",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "今日热门",
+                          "detailText": "投之家",
+                          "icon": "https://static.touzhijia.com/images/m/5e53f71d8a88bd74bc8695ebf499fda2-20170228.jpg",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 6,
+                 "contenType": "platBaseInfo",
+                 "title": "推荐平台",
+                 "isShowHeader": 1,
+                 "rightEntry": "查看全部",
+                 "list":
+                 [
+                  {
+                  "platEnName": "woshidai",
+                  "platCnName": "沃时贷",
+                  "maxRate": 17,
+                  "minRate": 10,
+                  "startDeadline": 7,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 24,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "BB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/woshidai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "风投系"
+                           ],
+                  "tradeVolume": 140.9,
+                  "avgRate": 13.09,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/woshidai"
+                  },
+                  {
+                  "platEnName": "wyjr",
+                  "platCnName": "万盈金融",
+                  "maxRate": 12,
+                  "minRate": 8,
+                  "startDeadline": 7,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "AA",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/wyjr.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "国资系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 66.73,
+                  "avgRate": 12.23,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/wyjr"
+                  },
+                  {
+                  "platEnName": "huiyingdai",
+                  "platCnName": "汇盈金服",
+                  "maxRate": 14,
+                  "minRate": 8,
+                  "startDeadline": 1,
+                  "startDeadlineUnit": "月",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "BBB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/huiyingdai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "上市系"
+                           ],
+                  "tradeVolume": 795,
+                  "avgRate": 9.67,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/huiyingdai"
+                  }]
+                 },
+                 {"id":1,
+                 "contenType": "bids",
+                 "title": "优选标的",
+                 "isShowHeader": 1,
+                 "rightEntry": "",
+                 "list":[{
+                         "investId": "6360",
+                         "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+                         "investName": "车e贷（抵押1706361）",
+                         "platEnName": "erongsuo",
+                         "period": 30,
+                         "periodUnit": "天",
+                         "todayHot": 1,
+                         "platCnName": "e融所",
+                         "amount": 77800,
+                         "remainAmount": 23657,
+                         "totalRate": 8,
+                         },
+                         {
+                         "investId": "HBD17060466",
+                         "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+                         "investName": "HBD17060466",
+                         "platEnName": "huiyingdai",
+                         "period": 3,
+                         "weaklyBest": 1,
+                         "periodUnit": "个月",
+                         "platCnName": "汇盈金服",
+                         "amount": 500000,
+                         "remainAmount": 100500,
+                         "totalRate": 8.5,
+                         },
+                         {
+                         "investId": "27205",
+                         "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+                         "investName": "【新手标】",
+                         "period": 3,
+                         "periodUnit": "个月",
+                         "platEnName": "stjr",
+                         "platCnName": "石投金融",
+                         "amount": 100000,
+                         "remainAmount": 68980,
+                         "totalRate": 13,
+                         }
+                         ]
+                 },
+                 {
+                 "id": 65,
+                 "contenType": "breakingEvent",
+                 "title": "之家大事件",
+                 "isShowHeader": 1,
+                 "rightEntry": "",
+                 "list": [
+                          {
+                          "title": "e融所，为投资人赚取的收益6亿6257万6114元，厉害吧，呵呵哒",
+                          "detailText": "e融所，好屌！",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 19,
+                 "contenType": "imageTheme",
+                 "title": "",
+                 "isShowHeader": 0,
+                 "rightEntry": "查看全部",
+                 "list": [
+                          {
+                          "title": "珠宝贷发福利啦,快去抢一波",
+                          "detailText": "网贷之家提供",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "收到消息,一路同心周年庆",
+                          "detailText": "平台有背景",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "惠投无忧在搞事,速速围观！",
+                          "detailText": "资金银行存管",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 },
+                 {"id":1,
+                 "contenType": "bids",
+                 "title": "之家精选",
+                 "rightEntry": "查看全部",
+                 "list":[{
+                         "investId": "6360",
+                         "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+                         "investName": "车e贷（抵押1706361）",
+                         "platEnName": "erongsuo",
+                         "period": 30,
+                         "periodUnit": "天",
+                         "platCnName": "e融所",
+                         "amount": 77800,
+                         "remainAmount": 23657,
+                         "totalRate": 8,
+                         },
+                         {
+                         "investId": "HBD17060466",
+                         "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+                         "investName": "HBD17060466",
+                         "platEnName": "huiyingdai",
+                         "period": 3,
+                         "periodUnit": "个月",
+                         "platCnName": "汇盈金服",
+                         "amount": 500000,
+                         "remainAmount": 100500,
+                         "totalRate": 8.5,
+                         },
+                         {
+                         "investId": "27205",
+                         "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+                         "investName": "【新手标】",
+                         "period": 3,
+                         "periodUnit": "个月",
+                         "platEnName": "stjr",
+                         "platCnName": "石投金融",
+                         "amount": 100000,
+                         "remainAmount": 68980,
+                         "totalRate": 13,
+                         }
+                         ]
+                 },
+                 {
+                 "id": 66,
+                 "contenType": "focalcontent",
+                 "title": "平台财经",
+                 "isShowHeader": 1,
+                 "rightEntry": "更多》",
+                 "list": [
+                          {
+                          "title": "e融所，为投资人赚取的收益6亿6257万6114元，厉害吧，呵呵哒",
+                          "detailText": "e融所，好屌！",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "无忧无忧 「抱财网」上市公司注资&资金双托管&安全",
+                          "detailText": "抱财网-国资系",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "惠投无忧-赛为智能300044旗下互联网金融服务平台",
+                          "detailText": "惠投无忧-AA级平台",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "91旺财官网_91金融旗下互联网网络借贷信息中介平台",
+                          "detailText": "91旺财，xxx",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 11,
+                 "contenType": "column",
+                 "title": "之家栏目",
+                 "isShowHeader": 1,
+                 "rightEntry": "kkk",
+                 "itemw": 137,
+                 "itemh": 241,
+                 "list": [
+                          {
+                          "title": "之家学堂",
+                          "detailText": "",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "之家周报",
+                          "detailText": "",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "之家头条",
+                          "detailText": "",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "之家俱乐部",
+                          "detailText": "",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 }
+                 
+                 ]
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BreakingEventCell" customModule="magic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="327"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="327"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="资本寒冬下,投之家逆势完成8000万A轮融资" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rmv-p4-2OF">
+                        <rect key="frame" x="15" y="15" width="336.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="A轮融资" translatesAutoresizingMaskIntoConstraints="NO" id="wpw-TR-rUu">
+                        <rect key="frame" x="15" y="51" width="352" height="165.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wpw-TR-rUu" secondAttribute="height" multiplier="667:313" id="WLk-f0-kjL"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15000查看" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGc-ag-hT2">
+                        <rect key="frame" x="15" y="291" width="69.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="lIa-uI-uur"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第三方互联网金融服务平台投之家完成8000万A轮融资_财经_腾讯网" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXU-8V-9dY">
+                        <rect key="frame" x="15" y="243.5" width="343.5" height="38.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qGm-q2-STl">
+                        <rect key="frame" x="15" y="326.5" width="367" height="0.5"/>
+                        <color key="backgroundColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="Zfj-fl-zO4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qGm-q2-STl" secondAttribute="trailing" id="7dK-yv-rLu"/>
+                <constraint firstItem="wpw-TR-rUu" firstAttribute="top" secondItem="Rmv-p4-2OF" secondAttribute="bottom" constant="15" id="7lD-sB-EqB"/>
+                <constraint firstItem="Rmv-p4-2OF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="8h2-vt-W3C"/>
+                <constraint firstAttribute="trailing" secondItem="wpw-TR-rUu" secondAttribute="trailing" constant="15" id="9W0-tt-aUH"/>
+                <constraint firstAttribute="bottom" secondItem="oGc-ag-hT2" secondAttribute="bottom" constant="15" id="9dn-nG-Q7a"/>
+                <constraint firstItem="iXU-8V-9dY" firstAttribute="leading" secondItem="oGc-ag-hT2" secondAttribute="leading" id="HE8-yW-c6Y"/>
+                <constraint firstItem="Rmv-p4-2OF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="IpB-kq-BLC"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Rmv-p4-2OF" secondAttribute="trailing" constant="15" id="LF4-cp-2gM"/>
+                <constraint firstAttribute="bottom" secondItem="qGm-q2-STl" secondAttribute="bottom" id="M3Z-55-PSN"/>
+                <constraint firstItem="oGc-ag-hT2" firstAttribute="top" secondItem="iXU-8V-9dY" secondAttribute="bottom" constant="9" id="UAQ-9m-5nZ"/>
+                <constraint firstItem="wpw-TR-rUu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="dhy-5p-cgH"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iXU-8V-9dY" secondAttribute="trailing" constant="15" id="ebK-FS-gjZ"/>
+                <constraint firstItem="qGm-q2-STl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="gBb-uy-P8f"/>
+                <constraint firstItem="oGc-ag-hT2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="qB4-NI-SH2"/>
+            </constraints>
+            <size key="customSize" width="382" height="327"/>
+            <point key="canvasLocation" x="-241" y="-106"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="A轮融资" width="190" height="140"/>
+    </resources>
+</document>

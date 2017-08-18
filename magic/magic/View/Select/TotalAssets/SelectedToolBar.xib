@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <visualEffectView opaque="NO" contentMode="scaleToFill" id="CEC-oY-rpV" customClass="SelectedToolBar" customModule="magic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="teJ-0A-JwG">
+                <rect key="frame" x="0.0" y="0.0" width="299" height="71"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rd-0K-DOX">
+                        <rect key="frame" x="15" y="14.5" width="81" height="42"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                        <state key="normal" title="Button"/>
+                        <state key="disabled">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Poc-8c-gke">
+                        <rect key="frame" x="239" y="20.5" width="45" height="30"/>
+                        <state key="disabled" title="butotn">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <gestureRecognizers/>
+                <constraints>
+                    <constraint firstItem="5rd-0K-DOX" firstAttribute="centerY" secondItem="teJ-0A-JwG" secondAttribute="centerY" id="NXA-RB-cRk"/>
+                    <constraint firstItem="5rd-0K-DOX" firstAttribute="leading" secondItem="teJ-0A-JwG" secondAttribute="leading" constant="15" id="Orr-lE-Mu9"/>
+                    <constraint firstItem="Poc-8c-gke" firstAttribute="centerY" secondItem="teJ-0A-JwG" secondAttribute="centerY" id="nQ7-Ew-Zf4"/>
+                    <constraint firstAttribute="trailing" secondItem="Poc-8c-gke" secondAttribute="trailing" constant="15" id="ymT-NF-E4O"/>
+                </constraints>
+                <connections>
+                    <outletCollection property="gestureRecognizers" destination="YRS-On-BlB" appends="YES" id="SQ2-ez-Qlv"/>
+                </connections>
+            </view>
+            <gestureRecognizers/>
+            <blurEffect style="extraLight"/>
+            <connections>
+                <outlet property="leftBtn" destination="5rd-0K-DOX" id="M5z-bS-VEe"/>
+                <outlet property="rightBtn" destination="Poc-8c-gke" id="Glg-XU-dWi"/>
+            </connections>
+            <point key="canvasLocation" x="-473" y="-25"/>
+        </visualEffectView>
+        <tapGestureRecognizer id="YRS-On-BlB">
+            <connections>
+                <action selector="showTotalAssetsDetail:" destination="CEC-oY-rpV" id="uGc-YQ-kLJ"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

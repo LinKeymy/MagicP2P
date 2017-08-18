@@ -1,0 +1,315 @@
+[{
+ "id":0
+ "contenType": "autoPlayBanner",
+ "title": "今日福利",
+ "rightEntry": "查看全部",
+ "list":[{
+         "image_url": "https://static.touzhijia.com/images/m/5e53f71d8a88bd74bc8695ebf499fda2-20170228.jpg",
+         "link_url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE1MjUxNQ==&mid=2665029370&idx=1&sn=34d6c7be9af0a8c5d6996288d43cb717&chksm=bdc02b568ab7a240599aacfff6d3f777b903b95febcdc303d402f623d07872a2dd7cccd97148&mpshare=1&scene=1&srcid=11038nySAD4YVkLgRHGpSLDX#rd"
+         },
+         {
+         "image_url": "https://static.touzhijia.com/images/m/fe16ff090cfe1c606a3ce5eff72b933e-20161012.jpg",
+         "link_url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE1MjUxNQ==&mid=414492847&idx=3&sn=2c23b0d554c66b01a114eb9c520a698f&scene=1&srcid=03286SBghaZYA6G7T2INSVPc#wechat_redirect"
+         },
+         {
+         "image_url": "https://static.touzhijia.com/m/banners/appdownload-1080x460.png",
+         "link_url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.tzj.debt"
+         }],
+ },
+ {
+ "id":2
+ "contenType": "avtivity",
+ "title": "今日福利",
+ "rightEntry": "查看全部",
+ "list":[{
+         "investId": "6360",
+         "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         "investName": "车e贷（抵押1706361）",
+         "platEnName": "erongsuo",
+         "platCnName": "e融所",
+         "amount": 77800,
+         "remainAmount": 23657,
+         "totalRate": 8,
+         },
+         {
+         "investId": "HBD17060466",
+         "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+         "investName": "HBD17060466",
+         "platEnName": "huiyingdai",
+         "platCnName": "汇盈金服",
+         "amount": 500000,
+         "remainAmount": 100500,
+         "totalRate": 8.5,
+         },
+         {
+         "investId": "27205",
+         "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+         "investName": "【新手标】",
+         "platEnName": "stjr",
+         "platCnName": "石投金融",
+         "amount": 100000,
+         "remainAmount": 68980,
+         "totalRate": 13,
+         }
+         ],
+ },
+ {
+ "id":3
+ "contenType": "bids",
+ "title": "之家精选",
+ "rightEntry": "查看全部",
+ "list":[{
+         "investId": "6360",
+         "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         "investName": "车e贷（抵押1706361）",
+         "platEnName": "erongsuo",
+         "platCnName": "e融所",
+         "amount": 77800,
+         "remainAmount": 23657,
+         "totalRate": 8,
+         },
+         {
+         "investId": "HBD17060466",
+         "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+         "investName": "HBD17060466",
+         "platEnName": "huiyingdai",
+         "platCnName": "汇盈金服",
+         "amount": 500000,
+         "remainAmount": 100500,
+         "totalRate": 8.5,
+         },
+         {
+         "investId": "27205",
+         "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+         "investName": "【新手标】",
+         "platEnName": "stjr",
+         "platCnName": "石投金融",
+         "amount": 100000,
+         "remainAmount": 68980,
+         "totalRate": 13,
+         }
+         ],
+ },
+ {
+ "id":4
+ "contenType": "bids",
+ "title": "新手推荐",
+ "rightEntry": "查看全部",
+ "list":[{
+         "investId": "6360",
+         "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         "investName": "车e贷（抵押1706361）",
+         "platEnName": "erongsuo",
+         "platCnName": "e融所",
+         "amount": 77800,
+         "remainAmount": 23657,
+         "totalRate": 8,
+         },
+         {
+         "investId": "HBD17060466",
+         "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+         "investName": "HBD17060466",
+         "platEnName": "huiyingdai",
+         "platCnName": "汇盈金服",
+         "amount": 500000,
+         "remainAmount": 100500,
+         "totalRate": 8.5,
+         },
+         {
+         "investId": "27205",
+         "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+         "investName": "【新手标】",
+         "platEnName": "stjr",
+         "platCnName": "石投金融",
+         "amount": 100000,
+         "remainAmount": 68980,
+         "totalRate": 13,
+         }
+         ],
+ },
+ {
+ "id":5
+ "contenType": "bid",
+ "title": "稳健型",
+ "rightEntry": "查看全部",
+ "list":[{
+         "investId": "6360",
+         "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         "platEnName": "erongsuo",
+         "platCnName": "e融所",
+         "amount": 77800,
+         "remainAmount": 23657,
+         "totalRate": 8,
+         },
+         {
+         "investId": "HBD17060466",
+         "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+         "investName": "HBD17060466",
+         "platEnName": "huiyingdai",
+         "platCnName": "汇盈金服",
+         "amount": 500000,
+         "remainAmount": 100500,
+         "totalRate": 8.5,
+         },
+         {
+         "investId": "27205",
+         "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+         "investName": "【新手标】",
+         "platEnName": "stjr",
+         "platCnName": "石投金融",
+         "amount": 100000,
+         "remainAmount": 68980,
+         "totalRate": 13,
+         },
+         {
+         "investId": "2e494984bb444902b4a73b4134d3d42d",
+         "investUniqueId": "84b91e6353c647280cc8fa0bbfa0d616",
+         "investName": "心计划X1-17061601",
+         "platEnName": "elutongxin",
+         "platCnName": "e路同心",
+         "amount": 1000000,
+         "remainAmount": 5996,
+         "totalRate": 6.6,
+         },
+         {
+         "investId": "20170600139",
+         "investUniqueId": "89c3185a8f27f7f779065c3c9693711d",
+         "investName": "樊先生资金周转-20170615-010",
+         "platEnName": "baocaiwang",
+         "platCnName": "抱财网",
+         "amount": 100000,
+         "remainAmount": 27200,
+         "totalRate": 7.56,
+         }],
+ },
+ {
+ "id":6
+ "contenType": "bids",
+ "title": "进取型",
+ "rightEntry": "查看全部",
+ "list":[{
+         "investId": "6360",
+         "investUniqueId": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         "platEnName": "erongsuo",
+         "platCnName": "e融所",
+         "amount": 77800,
+         "remainAmount": 23657,
+         "totalRate": 8,
+         },
+         {
+         "investId": "HBD17060466",
+         "investUniqueId": "74517e836f061956f75edc7dfa65df03",
+         "investName": "HBD17060466",
+         "platEnName": "huiyingdai",
+         "platCnName": "汇盈金服",
+         "amount": 500000,
+         "remainAmount": 100500,
+         "totalRate": 8.5,
+         },
+         {
+         "investId": "27205",
+         "investUniqueId": "b75911cc07b7a73cc4146f3e63249c72",
+         "investName": "【新手标】",
+         "platEnName": "stjr",
+         "platCnName": "石投金融",
+         "amount": 100000,
+         "remainAmount": 68980,
+         "totalRate": 13,
+         },
+         {
+         "investId": "2e494984bb444902b4a73b4134d3d42d",
+         "investUniqueId": "84b91e6353c647280cc8fa0bbfa0d616",
+         "investName": "心计划X1-17061601",
+         "platEnName": "elutongxin",
+         "platCnName": "e路同心",
+         "amount": 1000000,
+         "remainAmount": 5996,
+         "totalRate": 6.6,
+         },
+         {
+         "investId": "20170600139",
+         "investUniqueId": "89c3185a8f27f7f779065c3c9693711d",
+         "investName": "樊先生资金周转-20170615-010",
+         "platEnName": "baocaiwang",
+         "platCnName": "抱财网",
+         "amount": 100000,
+         "remainAmount": 27200,
+         "totalRate": 7.56,
+         }],
+ },
+ {
+ "contenType": "tips",
+ "title": "",
+ "rightEntry": "查看全部",
+ "list":[{
+         "title": "6360",
+         "uri": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         },
+         {
+         "title": "6360",
+         "uri": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         },
+         {
+         "title": "6360",
+         "uri": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         },
+         {
+         "title": "6360",
+         "uri": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         },
+         {
+         "title": "6360",
+         "uri": "caa16d9ea2bfc1ef0dc74fb2b3b9456b",
+         }],
+ },
+ {
+ "id": 63,
+ "contenType": "justText",
+ "title": "投之家价值观",
+ "isShowHeader": 1,
+ "rightEntry": "",
+ "list": [
+          {
+          "title": "核心目标(帮助用户)",
+          "uri": "touzhijia://my/coupon"
+          },
+          {
+          "title": "社会责任",
+          "uri": "touzhijia://my/coupon"
+          },
+          {
+          "title": "隐私",
+          "uri": "touzhijia://my/coupon"
+          },
+          {
+          "title": "合作平台责任",
+          "uri": "touzhijia://my/coupon"
+          }
+          ]
+ },
+ {
+ "id": 60,
+ "contenType": "justText",
+ "title": "关于投之家",
+ "isShowHeader": 1,
+ "rightEntry": "",
+ "list": [
+          {
+          "title": "Newsroom",
+          "uri": "touzhijia://my/coupon"
+          },
+          {
+          "title": "投之家管理层",
+          "uri": "touzhijia://my/coupon"
+          },
+          {
+          "title": "工作机会",
+          "uri": "touzhijia://my/coupon"
+          },
+          {
+          "title": "联系投之家",
+          "uri": "touzhijia://my/coupon"
+          }
+          ]
+ }
+ ]

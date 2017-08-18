@@ -1,0 +1,123 @@
+{"datalist":[{
+             "contenType": "tips",
+             "id": 0,
+             "list":[
+                     {
+                     "title": "回款日历",
+                     "detailText": "网贷之家提供",
+                     "icon": "icon_我的首页_回款日历",
+                     "uri": "https://m2.touzhijia.com/account/vip"
+                     },
+                     {
+                     "title": "之家余额",
+                     "detailText": "平台有背景",
+                     "icon": "icon_我的首页_积分账户",
+                     "uri": "https://m2.touzhijia.com/account/points"
+                     },
+                     {
+                     "title": "理财券",
+                     "detailText": "资金银行存管",
+                     "icon": "icon_我的首页_理财券",
+                     "uri": "touzhijia://my/coupon"
+                     },
+                     {
+                     "title": "每日奖励",
+                     "detailText": "资金银行存管",
+                     "icon": "icon_我的首页_vip",
+                     "uri": "https://m2.touzhijia.com/account/points/dailyrewards"
+                     }],
+             },
+             {
+             "contenType": "selectedAssets",
+             "title": "之家精选",
+             "id": 1,
+             "rightEntry": "查看全部",
+             "list":[
+                     {
+                     "platEnName": "touzhijia",
+                     "platCnName": "总资产",
+                     "awaitAmount": 29619.26,
+                     "totalAmount": 29620.07,
+                     "balanceAmount": 0.81,
+                     "updatedAt": "2017-08-02 18:06:50",
+                     "awaitAmountPercent": 100,
+                     "showQuickInvestTag": false,
+                     "logo": "https://static.touzhijia.com/m/platforms/recommend/touzhijia.png?ver=20170615",
+                     "uri": "https://m.touzhijia.com/account/wallet/"
+                     },
+                     {
+                     "platEnName": "touzhijia",
+                     "platCnName": "直投理财",
+                     "awaitAmount": 29619.26,
+                     "totalAmount": 29620.07,
+                     "balanceAmount": 0.81,
+                     "updatedAt": "2017-08-02 18:06:50",
+                     "awaitAmountPercent": 100,
+                     "showQuickInvestTag": false,
+                     "logo": "https://static.touzhijia.com/m/platforms/recommend/touzhijia.png?ver=20170615",
+                     "uri": "https://m.touzhijia.com/account/wallet/"
+                     },
+                     {
+                     "platEnName": "baocaiwang",
+                     "platCnName": "抱财网",
+                     "totalAmount": 0,
+                     "balanceAmount": 0,
+                     "awaitAmount": 0,
+                     "updatedAt": null,
+                     "awaitAmountPercent": 0,
+                     "showQuickInvestTag": true,
+                     "logo": "https://static.touzhijia.com/m/platforms/recommend/baocaiwang.png?ver=20170615",
+                     "uri": "http://m2.touzhijia.com/platform/account/baocaiwang"
+                     },
+                     {
+                     "platEnName": "weidaiwang",
+                     "platCnName": "微贷网",
+                     "totalAmount": 0,
+                     "balanceAmount": 0,
+                     "awaitAmount": 0,
+                     "updatedAt": null,
+                     "awaitAmountPercent": 0,
+                     "showQuickInvestTag": true,
+                     "logo": "https://static.touzhijia.com/m/platforms/recommend/weidaiwang.png?ver=20170615",
+                     "uri": "http://m2.touzhijia.com/platform/account/weidaiwang"
+                     },
+                     {
+                     "platEnName": "lianjinsuo",
+                     "platCnName": "联金所",
+                     "totalAmount": 0,
+                     "balanceAmount": 0,
+                     "awaitAmount": 0,
+                     "updatedAt": null,
+                     "awaitAmountPercent": 0,
+                     "showQuickInvestTag": true,
+                     "logo": "https://static.touzhijia.com/m/platforms/recommend/lianjinsuo.png?ver=20170615",
+                     "uri": "http://m2.touzhijia.com/platform/account/lianjinsuo"
+                     },
+                     {
+                     "platEnName": "zhishangjinrong",
+                     "platCnName": "知商金融",
+                     "totalAmount": 0,
+                     "balanceAmount": 0,
+                     "awaitAmount": 0,
+                     "updatedAt": null,
+                     "awaitAmountPercent": 0,
+                     "showQuickInvestTag": true,
+                     "logo": "https://static.touzhijia.com/m/platforms/recommend/zhishangjinrong.png?ver=20170615",
+                     "uri": "http://m2.touzhijia.com/platform/account/zhishangjinrong"
+                     },
+                     {
+                     "platEnName": "huitouwuyou",
+                     "platCnName": "惠投无忧",
+                     "totalAmount": 0,
+                     "balanceAmount": 0,
+                     "awaitAmount": 0,
+                     "updatedAt": null,
+                     "awaitAmountPercent": 0,
+                     "showQuickInvestTag": true,
+                     "logo": "https://static.touzhijia.com/m/platforms/recommend/huitouwuyou.png?ver=20170615",
+                     "uri": "http://m2.touzhijia.com/platform/account/huitouwuyou"
+                     }
+                     ],
+             },
+             ]
+}

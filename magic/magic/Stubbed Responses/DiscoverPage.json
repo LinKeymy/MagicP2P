@@ -1,0 +1,74 @@
+{"datalist":[{
+             "id": 1,
+             "contenType": "staticBanner",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "查看全部",
+             "list": [
+                      {
+                      "title": "网贷的前世今生",
+                      "detailText": "投之家",
+                      "icon": "https://static.touzhijia.com/images/m/5e53f71d8a88bd74bc8695ebf499fda2-20170228.jpg",
+                      "uri": "touzhijia://platform/safetyRating"
+                      },
+                      {
+                      "title": "投资是一种生活",
+                      "detailText": "人人贷",
+                      "icon": "https://static.touzhijia.com/images/m/fe16ff090cfe1c606a3ce5eff72b933e-20161012.jpg",
+                      "uri": "touzhijia://platform/background"
+                      },
+                      {
+                      "title": "关于收益与风险",
+                      "detailText": "网贷之家",
+                      "icon": "https://static.touzhijia.com/m/banners/appdownload-1080x460.png",
+                      "uri": "touzhijia://my/coupon"
+                      },
+                      {
+                      "title": "今日热门",
+                      "detailText": "投之家",
+                      "icon": "https://static.touzhijia.com/images/m/5e53f71d8a88bd74bc8695ebf499fda2-20170228.jpg",
+                      "uri": "touzhijia://my/coupon"
+                      }
+                      ]
+             },
+             {
+             "id": 2,
+             "contenType": "grid",
+             "title": "",
+             "isShowHeader": 0,
+             "rightEntry": "查看全部",
+             "list": [
+                      {
+                      "title": "财富圈",
+                      "detailText": "网贷之家提供",
+                      "icon": "MoreExpressionShops",
+                      "uri": "touzhijia://platform/safetyRating"
+                      },
+                      {
+                      "title": "天秤智投",
+                      "detailText": "平台有背景",
+                      "icon": "MoreExpressionShops",
+                      "uri": "https://m2.touzhijia.com/libra/assets"
+                      },
+                      {
+                      "title": "积分商城",
+                      "detailText": "资金银行存管",
+                      "icon": "MoreExpressionShops",
+                      "uri": "https://m2.touzhijia.com/club"
+                      },
+                      {
+                      "title": "社区",
+                      "detailText": "资金银行存管",
+                      "icon": "MoreExpressionShops",
+                      "uri": "https://ask.touzhijia.com/m/"
+                      },
+                      {
+                      "title": "之家俱乐部",
+                      "detailText": "资金银行存管",
+                      "icon": "MoreExpressionShops",
+                      "uri": "https://m2.touzhijia.com/club"
+                      }
+                      ]
+             }
+             ]
+}

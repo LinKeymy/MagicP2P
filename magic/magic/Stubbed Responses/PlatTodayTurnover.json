@@ -1,0 +1,408 @@
+{
+    "datalist": [
+                 {
+                 "id": 0,
+                 "contenType": "autoPlayBanner",
+                 "title": "",
+                 "isShowHeader": 0,
+                 "rightEntry": "查看全部",
+                 "list": [
+                          {
+                          "image_url": "https://static.touzhijia.com/images/m/5e53f71d8a88bd74bc8695ebf499fda2-20170228.jpg",
+                          "link_url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE1MjUxNQ==&mid=2665029370&idx=1&sn=34d6c7be9af0a8c5d6996288d43cb717&chksm=bdc02b568ab7a240599aacfff6d3f777b903b95febcdc303d402f623d07872a2dd7cccd97148&mpshare=1&scene=1&srcid=11038nySAD4YVkLgRHGpSLDX#rd"
+                          },
+                          {
+                          "image_url": "https://static.touzhijia.com/images/m/fe16ff090cfe1c606a3ce5eff72b933e-20161012.jpg",
+                          "link_url": "http://mp.weixin.qq.com/s?__biz=MjM5NjE1MjUxNQ==&mid=414492847&idx=3&sn=2c23b0d554c66b01a114eb9c520a698f&scene=1&srcid=03286SBghaZYA6G7T2INSVPc#wechat_redirect"
+                          },
+                          {
+                          "image_url": "https://static.touzhijia.com/m/banners/appdownload-1080x460.png",
+                          "link_url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.tzj.debt"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 1,
+                 "contenType": "grid",
+                 "title": "",
+                 "isShowHeader": 0,
+                 "rightEntry": "查看全部",
+                 "list": [
+                          {
+                          "title": " 分级",
+                          "detailText": "网贷之家提供",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://platform/safetyRating"
+                          },
+                          {
+                          "title": " 看背景",
+                          "detailText": "平台有背景",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://platform/background"
+                          },
+                          {
+                          "title": " 有存管",
+                          "detailText": "资金银行存管",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://platform/depository"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 100,
+                 "isShowHeader": 1,
+                 "contenType": "platTodayTurnover",
+                 "title": "成交排行",
+                 "rightEntry": "查看全部",
+                 "list": [
+                          {
+                          "top": 1,
+                          "tradeAmount": "838840",
+                          "platEnName": "erongsuo",
+                          "platCnName": "91旺财",
+                          "logoLabel": "https://xxxx",
+                          "platTag": "银行系",
+                          "averageRate": "8.76",
+                          "squareLogo": "91旺财"
+                          },
+                          {
+                          "top": 2,
+                          "tradeAmount": "838840",
+                          "platEnName": "erongsuo",
+                          "platCnName": "博金贷",
+                          "logoLabel": "https://xxxx",
+                          "platTag": "银行系",
+                          "averageRate": "8.76",
+                          "squareLogo": "博金贷"
+                          },
+                          {
+                          "top": 3,
+                          "tradeAmount": "838840",
+                          "platEnName": "erongsuo",
+                          "platCnName": "车能贷",
+                          "logoLabel": "https://xxxx",
+                          "platTag": "银行系",
+                          "averageRate": "8.76",
+                          "squareLogo": "车能贷"
+                          },
+                          {
+                          "top": 4,
+                          "tradeAmount": "838840",
+                          "platEnName": "erongsuo",
+                          "platCnName": "e融所",
+                          "logoLabel": "https://xxxx",
+                          "platTag": "银行系",
+                          "averageRate": "8.76",
+                          "squareLogo": "e融所"
+                          },
+                          {
+                          "top": 5,
+                          "tradeAmount": "838840",
+                          "platEnName": "erongsuo",
+                          "platCnName": "信用宝",
+                          "logoLabel": "https://xxxx",
+                          "platTag": "银行系",
+                          "averageRate": "8.76",
+                          "squareLogo": "信用宝"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 6,
+                 "contenType": "platBaseInfo",
+                 "title": "猜你喜欢",
+                 "isShowHeader": 1,
+                 "rightEntry": "查看全部",
+                 "list":
+                 [{
+                 "platEnName": "renrendai",
+                 "platCnName": "人人贷",
+                 "maxRate": 9.6,
+                 "minRate": 4,
+                 "startDeadline": 31,
+                 "startDeadlineUnit": "天",
+                 "endDeadline": 730,
+                 "endDeadlineUnit": "天",
+                 "creditLevel": "AAA",
+                 "isRecommend": true,
+                 "logo": "http://static.touzhijia.com/m/platforms/recommend/renrendai.png",
+                 "activityFlag": false,
+                 "tags": [
+                          "风投系",
+                          "有存管"
+                          ],
+                 "tradeVolume": 123.95,
+                 "avgRate": 10.17,
+                 "showQuickInvestTag": false,
+                 "uri": "http://m2.touzhijia.com/platform/detail/renrendai"
+                 },
+                 {
+                 "platEnName": "huitouwang",
+                 "platCnName": "汇投网",
+                 "maxRate": 13.5,
+                 "minRate": 5.2,
+                 "startDeadline": 3,
+                 "startDeadlineUnit": "天",
+                 "endDeadline": 180,
+                 "endDeadlineUnit": "天",
+                 "creditLevel": "BBB",
+                 "isRecommend": true,
+                 "logo": "http://static.touzhijia.com/m/platforms/recommend/huitouwang.png",
+                 "activityFlag": false,
+                 "tags": [
+                          "国资系",
+                          "有存管"
+                          ],
+                 "tradeVolume": 30,
+                 "avgRate": 9.35,
+                 "showQuickInvestTag": true,
+                 "uri": "http://m2.touzhijia.com/platform/detail/huitouwang"
+                 },
+                 {
+                 "platEnName": "zhubaodai",
+                 "platCnName": "珠宝贷",
+                 "maxRate": 12,
+                 "minRate": 8,
+                 "startDeadline": 30,
+                 "startDeadlineUnit": "天",
+                 "endDeadline": 12,
+                 "endDeadlineUnit": "月",
+                 "creditLevel": "A",
+                 "isRecommend": true,
+                 "logo": "http://static.touzhijia.com/m/platforms/recommend/zhubaodai.png",
+                 "activityFlag": false,
+                 "tags": [
+                          "上市系",
+                          "有存管"
+                          ],
+                 "tradeVolume": 11.4,
+                 "avgRate": 9.43,
+                 "showQuickInvestTag": true,
+                 "uri": "http://m2.touzhijia.com/platform/detail/zhubaodai"
+                 },
+                 {
+                 "platEnName": "woshidai",
+                 "platCnName": "沃时贷",
+                 "maxRate": 17,
+                 "minRate": 10,
+                 "startDeadline": 7,
+                 "startDeadlineUnit": "天",
+                 "endDeadline": 24,
+                 "endDeadlineUnit": "月",
+                 "creditLevel": "BB",
+                 "isRecommend": true,
+                 "logo": "http://static.touzhijia.com/m/platforms/recommend/woshidai.png",
+                 "activityFlag": false,
+                 "tags": [
+                          "风投系"
+                          ],
+                 "tradeVolume": 140.9,
+                 "avgRate": 13.09,
+                 "showQuickInvestTag": true,
+                 "uri": "http://m2.touzhijia.com/platform/detail/woshidai"
+                 },
+                 {
+                 "platEnName": "wyjr",
+                 "platCnName": "万盈金融",
+                 "maxRate": 12,
+                 "minRate": 8,
+                 "startDeadline": 7,
+                 "startDeadlineUnit": "天",
+                 "endDeadline": 12,
+                 "endDeadlineUnit": "月",
+                 "creditLevel": "AA",
+                 "isRecommend": true,
+                 "logo": "http://static.touzhijia.com/m/platforms/recommend/wyjr.png",
+                 "activityFlag": false,
+                 "tags": [
+                          "国资系",
+                          "有存管"
+                          ],
+                 "tradeVolume": 66.73,
+                 "avgRate": 12.23,
+                 "showQuickInvestTag": true,
+                 "uri": "http://m2.touzhijia.com/platform/detail/wyjr"
+                 },
+                 {
+                 "platEnName": "huiyingdai",
+                 "platCnName": "汇盈金服",
+                 "maxRate": 14,
+                 "minRate": 8,
+                 "startDeadline": 1,
+                 "startDeadlineUnit": "月",
+                 "endDeadline": 12,
+                 "endDeadlineUnit": "月",
+                 "creditLevel": "BBB",
+                 "isRecommend": true,
+                 "logo": "http://static.touzhijia.com/m/platforms/recommend/huiyingdai.png",
+                 "activityFlag": false,
+                 "tags": [
+                          "上市系"
+                          ],
+                 "tradeVolume": 795,
+                 "avgRate": 9.67,
+                 "showQuickInvestTag": true,
+                 "uri": "http://m2.touzhijia.com/platform/detail/huiyingdai"
+                 }]
+                 
+                 },
+                 {
+                 "id": 19,
+                 "contenType": "imageTheme",
+                 "title": "",
+                 "isShowHeader": 0,
+                 "rightEntry": "查看全部",
+                 "list": [
+                          {
+                          "title": "珠宝贷发福利啦,快去抢一波",
+                          "detailText": "网贷之家提供",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "收到消息,一路同心周年庆",
+                          "detailText": "平台有背景",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "惠投无忧在搞事,速速围观！",
+                          "detailText": "资金银行存管",
+                          "icon": "MoreExpressionShops",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 },
+                 {
+                 "id": 9,
+                 "contenType": "platBaseInfo",
+                 "title": "中国好平台",
+                 "isShowHeader": 1,
+                 "rightEntry": "查看全部",
+                 "list":
+                 [{
+                  "platEnName": "renrendai",
+                  "platCnName": "人人贷",
+                  "maxRate": 9.6,
+                  "minRate": 4,
+                  "startDeadline": 31,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 730,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "AAA",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/renrendai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "风投系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 123.95,
+                  "avgRate": 10.17,
+                  "showQuickInvestTag": false,
+                  "uri": "http://m2.touzhijia.com/platform/detail/renrendai"
+                  },
+                  {
+                  "platEnName": "huitouwang",
+                  "platCnName": "汇投网",
+                  "maxRate": 13.5,
+                  "minRate": 5.2,
+                  "startDeadline": 3,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 180,
+                  "endDeadlineUnit": "天",
+                  "creditLevel": "BBB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/huitouwang.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "国资系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 30,
+                  "avgRate": 9.35,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/huitouwang"
+                  },
+                  {
+                  "platEnName": "zhubaodai",
+                  "platCnName": "珠宝贷",
+                  "maxRate": 12,
+                  "minRate": 8,
+                  "startDeadline": 30,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 12,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "A",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/zhubaodai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "上市系",
+                           "有存管"
+                           ],
+                  "tradeVolume": 11.4,
+                  "avgRate": 9.43,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/zhubaodai"
+                  },
+                  {
+                  "platEnName": "woshidai",
+                  "platCnName": "沃时贷",
+                  "maxRate": 17,
+                  "minRate": 10,
+                  "startDeadline": 7,
+                  "startDeadlineUnit": "天",
+                  "endDeadline": 24,
+                  "endDeadlineUnit": "月",
+                  "creditLevel": "BB",
+                  "isRecommend": true,
+                  "logo": "http://static.touzhijia.com/m/platforms/recommend/woshidai.png",
+                  "activityFlag": false,
+                  "tags": [
+                           "风投系"
+                           ],
+                  "tradeVolume": 140.9,
+                  "avgRate": 13.09,
+                  "showQuickInvestTag": true,
+                  "uri": "http://m2.touzhijia.com/platform/detail/woshidai"
+                  },
+]
+                 
+                 },
+                 {
+                 "id": 66,
+                 "contenType": "focalcontent",
+                 "title": "平台资讯",
+                 "isShowHeader": 1,
+                 "rightEntry": "更多》",
+                 "list": [
+                          {
+                          "title": "e融所，为投资人赚取的收益6亿6257万6114元，厉害吧，呵呵哒",
+                          "detailText": "e融所，好屌！",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "无忧无忧 「抱财网」上市公司注资&资金双托管&安全",
+                          "detailText": "抱财网-国资系",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "惠投无忧-赛为智能300044旗下互联网金融服务平台",
+                          "detailText": "惠投无忧-AA级平台",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          },
+                          {
+                          "title": "91旺财官网_91金融旗下互联网网络借贷信息中介平台",
+                          "detailText": "91旺财，xxx",
+                          "icon": "applelogo",
+                          "uri": "touzhijia://my/coupon"
+                          }
+                          ]
+                 }
+                 
+                 ]
+}

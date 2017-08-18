@@ -1,0 +1,85 @@
+ [{
+  "title": "直投理财",
+  "items": [
+            {
+            "title": "T计划",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "精选",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "转让",
+            "iconName": "MoreMyBankCard",
+            }
+            ]
+  },
+  
+  {
+  "title": "平台理财-选标",
+  "items": [
+            {
+            "title": "进取型",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "稳健型",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "平台新手",
+            "iconName": "MoreMyBankCard",
+            }
+            ]
+  },
+  {
+  "title": "平台理财-选平台-安全评级",
+  "items": [
+            {
+            "title": "AAA",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "AA以上",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "A以上",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "BBB以上",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "BB以上",
+            "iconName": "MoreMyBankCard",
+            }
+            ]
+  },
+  {
+  "title": "平台理财-选平台-平台背景",
+  "items": [
+            {
+            "title": "上市系",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "国资系",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "银行系",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "风投系",
+            "iconName": "MoreMyBankCard",
+            },
+            {
+            "title": "民营系",
+            "iconName": "MoreMyBankCard",
+            }
+            ]
+  }]
