@@ -11,7 +11,7 @@ def common_pods
     pod 'SnapKit', '~>3.2.0'
     pod 'Kingfisher', '~>3.6.1'
     pod 'SVProgressHUD','~>2.1.2'
-    pod 'ChameleonFramework/Swift', '~>2.1.0'
+    pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
     pod 'SwiftyUserDefaults','~>3.0.0'
 end
 
