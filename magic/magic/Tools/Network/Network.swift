@@ -30,6 +30,7 @@ class OnlinePro<Target>: RxMoyaProvider<Target> where Target: CoustomTargetType 
         super.init(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins, trackInflights: trackInflights)
     }
     
+    // 如果
     // take(x) 表示只处理前x个事件，ignore(fasle)表示忽略false的事件
     override func request(_ token: Target) -> Observable<Moya.Response> {
         let actualRequest = super.request(token)

@@ -1,7 +1,6 @@
 //
 //  BidAPI.swift
 //  magic
-//
 //  Created by SteveLin on 2017/5/29.
 //  Copyright © 2017年 SteveLin. All rights reserved.
 //

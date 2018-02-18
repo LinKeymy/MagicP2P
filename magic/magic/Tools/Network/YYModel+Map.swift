@@ -56,7 +56,6 @@ extension Observable where E == Response {
     }
 }
 
-
 extension ObservableType where Self.E == Moya.Response {
     public func filterStatusCodes() -> Observable<E> {
         return flatMap { response -> Observable<E> in

@@ -15,6 +15,7 @@ class SectionContentController: BaseAnchorVC {
         super.viewDidLoad()
         view.addSubview(collectionView)
         collectionView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
+        collectionView.showsVerticalScrollIndicator = false
         adapter.collectionView = collectionView
         adapter.dataSource = self
     }

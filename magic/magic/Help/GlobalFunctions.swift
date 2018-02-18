@@ -56,8 +56,10 @@ let logger = Logger(destination: logPath())
 
 private let reachabilityManager = ReachabilityManager()
 
+
+
 // An observable that completes when the app gets online (possibly completes immediately).
-func connectedToInternetOrStubbing() -> Observable<Bool> {
+func connectedToInternetOrStubbing() -> Observable<Bool> { // 连接网络或者拦截
     
     let stubbing = Observable.just(APIKeys.sharedKeys.stubResponses)
     

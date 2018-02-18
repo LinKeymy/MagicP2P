@@ -52,8 +52,6 @@
 		D62C06681F3D84C1009F57F6 /* Introduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C06671F3D84C1009F57F6 /* Introduce.swift */; };
 		D63174AA1EE53A0100CC3EA3 /* MessageViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63174A91EE53A0100CC3EA3 /* MessageViewModelSpec.swift */; };
 		D63174B21EE5464D00CC3EA3 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63174B11EE5464D00CC3EA3 /* UserNotifications.framework */; };
-		D63174C01EE563FA00CC3EA3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63174BF1EE563FA00CC3EA3 /* NotificationService.swift */; };
-		D63174C41EE563FA00CC3EA3 /* APNsService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D63174BD1EE563F900CC3EA3 /* APNsService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D633A8531ECDAD3600A42357 /* TZJSepcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633A8521ECDAD3600A42357 /* TZJSepcTest.swift */; };
 		D633A8611ECDAD7400A42357 /* TZJUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633A8601ECDAD7400A42357 /* TZJUITest.swift */; };
 		D633A8691ECDE12A00A42357 /* UserVMSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633A8681ECDE12A00A42357 /* UserVMSpec.swift */; };
@@ -277,13 +275,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D63174C21EE563FA00CC3EA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6E5D11B1EA6FAF500F39286 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D63174BC1EE563F900CC3EA3;
-			remoteInfo = APNsService;
-		};
 		D633A8551ECDAD3600A42357 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6E5D11B1EA6FAF500F39286 /* Project object */;
@@ -307,7 +298,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D63174C41EE563FA00CC3EA3 /* APNsService.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,11 +353,7 @@
 		D62C06631F3C4BCC009F57F6 /* YYModel+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YYModel+Map.swift"; sourceTree = "<group>"; };
 		D62C06671F3D84C1009F57F6 /* Introduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introduce.swift; sourceTree = "<group>"; };
 		D63174A91EE53A0100CC3EA3 /* MessageViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewModelSpec.swift; sourceTree = "<group>"; };
-		D63174B01EE5460E00CC3EA3 /* magic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = magic.entitlements; sourceTree = "<group>"; };
 		D63174B11EE5464D00CC3EA3 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		D63174BD1EE563F900CC3EA3 /* APNsService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = APNsService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		D63174BF1EE563FA00CC3EA3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		D63174C11EE563FA00CC3EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D633A8501ECDAD3600A42357 /* TZJSepcTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZJSepcTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D633A8521ECDAD3600A42357 /* TZJSepcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZJSepcTest.swift; sourceTree = "<group>"; };
 		D633A8541ECDAD3600A42357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -607,13 +593,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D63174BA1EE563F900CC3EA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D633A84D1ECDAD3600A42357 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -755,15 +734,6 @@
 				D60A93751F0CB6E6005E2C04 /* RenewSettingController.swift */,
 			);
 			path = Renew;
-			sourceTree = "<group>";
-		};
-		D63174BE1EE563FA00CC3EA3 /* APNsService */ = {
-			isa = PBXGroup;
-			children = (
-				D63174BF1EE563FA00CC3EA3 /* NotificationService.swift */,
-				D63174C11EE563FA00CC3EA3 /* Info.plist */,
-			);
-			path = APNsService;
 			sourceTree = "<group>";
 		};
 		D633A8511ECDAD3600A42357 /* TZJSepcTest */ = {
@@ -1591,7 +1561,6 @@
 				D6E5D1251EA6FAF500F39286 /* magic */,
 				D633A8511ECDAD3600A42357 /* TZJSepcTest */,
 				D633A85F1ECDAD7400A42357 /* TZJUITest */,
-				D63174BE1EE563FA00CC3EA3 /* APNsService */,
 				D6E5D1241EA6FAF500F39286 /* Products */,
 				169440B51A2DD3AEC1808728 /* Pods */,
 				9AE8B16684701822AA72476E /* Frameworks */,
@@ -1604,7 +1573,6 @@
 				D6E5D1231EA6FAF500F39286 /* magic.app */,
 				D633A8501ECDAD3600A42357 /* TZJSepcTest.xctest */,
 				D633A85E1ECDAD7400A42357 /* TZJUITest.xctest */,
-				D63174BD1EE563F900CC3EA3 /* APNsService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1622,7 +1590,6 @@
 				D69BC1C51EF2935300CD7E00 /* Stubbed Responses */,
 				D69BC1CA1EF2935300CD7E00 /* Tools */,
 				D69BC2101EF2935300CD7E00 /* View */,
-				D63174B01EE5460E00CC3EA3 /* magic.entitlements */,
 				D6E5D1261EA6FAF500F39286 /* AppDelegate.swift */,
 				D6E5D12D1EA6FAF500F39286 /* Assets.xcassets */,
 				D6E5D1321EA6FAF500F39286 /* Info.plist */,
@@ -1645,23 +1612,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D63174BC1EE563F900CC3EA3 /* APNsService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D63174C51EE563FA00CC3EA3 /* Build configuration list for PBXNativeTarget "APNsService" */;
-			buildPhases = (
-				D63174B91EE563F900CC3EA3 /* Sources */,
-				D63174BA1EE563F900CC3EA3 /* Frameworks */,
-				D63174BB1EE563F900CC3EA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = APNsService;
-			productName = APNsService;
-			productReference = D63174BD1EE563F900CC3EA3 /* APNsService.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		D633A84F1ECDAD3600A42357 /* TZJSepcTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D633A8571ECDAD3600A42357 /* Build configuration list for PBXNativeTarget "TZJSepcTest" */;
@@ -1716,7 +1666,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D63174C31EE563FA00CC3EA3 /* PBXTargetDependency */,
 			);
 			name = magic;
 			productName = magic;
@@ -1733,11 +1682,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = SteveLin;
 				TargetAttributes = {
-					D63174BC1EE563F900CC3EA3 = {
-						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = R4TC575378;
-						ProvisioningStyle = Automatic;
-					};
 					D633A84F1ECDAD3600A42357 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = R4TC575378;
@@ -1752,11 +1696,11 @@
 					};
 					D6E5D1221EA6FAF500F39286 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R4TC575378;
+						DevelopmentTeam = 254QC4S377;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
 								enabled = 1;
@@ -1781,19 +1725,11 @@
 				D6E5D1221EA6FAF500F39286 /* magic */,
 				D633A84F1ECDAD3600A42357 /* TZJSepcTest */,
 				D633A85D1ECDAD7400A42357 /* TZJUITest */,
-				D63174BC1EE563F900CC3EA3 /* APNsService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D63174BB1EE563F900CC3EA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D633A84E1ECDAD3600A42357 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1950,7 +1886,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		91176F608210923B52231458 /* [CP] Check Pods Manifest.lock */ = {
@@ -1968,7 +1904,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A0CADDC7E85E6E8A05401038 /* [CP] Embed Pods Frameworks */ = {
@@ -2024,14 +1960,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D63174B91EE563F900CC3EA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D63174C01EE563FA00CC3EA3 /* NotificationService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D633A84C1ECDAD3600A42357 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2251,11 +2179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D63174C31EE563FA00CC3EA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D63174BC1EE563F900CC3EA3 /* APNsService */;
-			targetProxy = D63174C21EE563FA00CC3EA3 /* PBXContainerItemProxy */;
-		};
 		D633A8561ECDAD3600A42357 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6E5D1221EA6FAF500F39286 /* magic */;
@@ -2269,36 +2192,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D63174C61EE563FA00CC3EA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				DEVELOPMENT_TEAM = R4TC575378;
-				INFOPLIST_FILE = APNsService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touzhijia.magic.APNsService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		D63174C71EE563FA00CC3EA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				DEVELOPMENT_TEAM = R4TC575378;
-				INFOPLIST_FILE = APNsService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touzhijia.magic.APNsService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		D633A8581ECDAD3600A42357 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0211AB7CAC50DCA4E8C9C78 /* Pods-TZJSepcTest.debug.xcconfig */;
@@ -2463,8 +2356,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3.5.0";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = magic/magic.entitlements;
-				DEVELOPMENT_TEAM = R4TC575378;
+				DEVELOPMENT_TEAM = 254QC4S377;
 				INFOPLIST_FILE = magic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2472,7 +2364,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/magic/Notification/UMessage_Sdk_1.5.0a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.touzhijia.magic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevelin.weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "magic/magic-Bridge.h";
 				SWIFT_VERSION = 3.0;
@@ -2486,8 +2378,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3.5.0";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = magic/magic.entitlements;
-				DEVELOPMENT_TEAM = R4TC575378;
+				DEVELOPMENT_TEAM = 254QC4S377;
 				INFOPLIST_FILE = magic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2495,7 +2386,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/magic/Notification/UMessage_Sdk_1.5.0a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.touzhijia.magic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevelin.weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "magic/magic-Bridge.h";
 				SWIFT_VERSION = 3.0;
@@ -2505,15 +2396,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D63174C51EE563FA00CC3EA3 /* Build configuration list for PBXNativeTarget "APNsService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D63174C61EE563FA00CC3EA3 /* Debug */,
-				D63174C71EE563FA00CC3EA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D633A8571ECDAD3600A42357 /* Build configuration list for PBXNativeTarget "TZJSepcTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
